@@ -23,5 +23,5 @@ int[] GenerateRandomArray(int elements, int start, int finish)
 }
 
 int[] array = GenerateRandomArray(4, -100, 100);
-Console.Write($"[{String.Join(",", array)}]");
+Console.Write($"[{String.Join(", ", array)}]");
 Console.WriteLine($" -> {GetSumOfOddIndex(array)}");

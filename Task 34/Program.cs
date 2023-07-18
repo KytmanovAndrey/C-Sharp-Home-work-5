@@ -22,5 +22,5 @@ int[] GenerateRandomArray(int elements, int start, int finish)
 }
 
 int[] array = GenerateRandomArray(12, 100, 1000);
-Console.Write($"[{String.Join(",", array)}]");
+Console.Write($"[{String.Join(", ", array)}]");
 Console.WriteLine($" -> {GetCountsEvenNumbers(array)}");

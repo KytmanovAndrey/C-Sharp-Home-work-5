@@ -6,7 +6,7 @@ int GetCountsEvenNumbers(int[] array)
     int counts = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        if (array[i] %2 == 0) counts ++;
+        if (array[i] % 2 == 0) counts++;
     }
     return counts;
 }

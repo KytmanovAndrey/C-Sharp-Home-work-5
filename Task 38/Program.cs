@@ -12,7 +12,7 @@ double GetMaxMinDiff(double[] array)
     }
     double diff = max - min;
     Console.Write($" => {max} - {min}");
-    return Math.Round(diff,2);
+    return Math.Round(diff, 2);
 }
 
 double[] GenerateRandomArray(int elements, double start, double finish)
@@ -20,7 +20,7 @@ double[] GenerateRandomArray(int elements, double start, double finish)
     double[] array = new double[elements];
     for (int i = 0; i < elements; i++)
     {
-        array[i] = Math.Round((start + new Random().NextDouble()*(finish-start)),2);
+        array[i] = Math.Round((start + new Random().NextDouble() * (finish - start)), 2);
     }
     return array;
 }
